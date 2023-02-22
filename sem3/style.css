@@ -100,6 +100,125 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
 .top__logos-img:first-child {
     margin-left: -27px;
+}
+
+/* ------------------------------------------ */
+
+.block2 {
+    display: flex;
+    gap: 61px;
+    padding-top: 140px;
+    padding-bottom: 125px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.block2__item {
+    width: 310px;
+    transition: 0.3s;
+}
+
+.block2__item:hover {
+    scale: 1.1;
+}
+
+.block2__item-title {
+    width: 215px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.block2__item-text {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.block2__item-subtext {
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+}
+
+/* ------------------------------------------ */
+
+.block3 {}
+
+.block3__text {
+    display: flex;
+    width: 682px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 92px;
+    padding-bottom: 55px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.block3__title {
+    font-family: 'Gilroy-Bold';
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+    padding-bottom: 19px;
+}
+
+.block3__subtitle {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.block3__items {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+    flex-wrap: nowrap;
+}
+
+.block3__item {
+    width: 370px;
+    text-align: center;
+}
+
+.block3__item-title {
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.block3__item-text {
+    padding-bottom: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height: 150%;
+    color: #AAAAAA;
+}
+
+.block3__item-btn {
+    width: 150px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 13px;
+    line-height: 150%;
+    color: #FFFFFF;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
 }
